@@ -7,11 +7,13 @@ function ExpCardItem(props) {
             <li className="exp-cards-item">
                 <div className="exp-cards-item-link">
                     <div className="exp-cards-item-pic-wrap">
-                    <img
-                        className='exp-cards-item-img'
-                        alt={props.label}
-                        src={props.src}
-                        />
+                        <a href={props.link}>
+                            <img
+                                className='exp-cards-item-img'
+                                alt={props.label}
+                                src={props.src}
+                            />
+                        </a>
                     </div>
                     <div className="exp-cards-item-info">
                         <h5 className="exp-cards-item-title">

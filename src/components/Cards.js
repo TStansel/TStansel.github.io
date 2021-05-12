@@ -10,6 +10,16 @@ function Cards() {
                 <div className="cards-wrapper">
                 <ul className="cards-items">
                         <CardItem
+                            icon="fab fa-react"
+                            text="Athena"
+                            label="Athena"
+                            description="A mobile app built to make finding internships/jobs easier to find and easier to apply to. Only requires the 
+                            user's information to be entered once and then the user is only shown jobs that match their qualifications. Using a Tinder-like structure to show
+                            the office space and other company information, applying is done through simply clicking a few buttons."
+                            github="https://github.com/TStansel/Sandbox"
+                            youtube="https://www.youtube.com/watch?v=Anzb4yPA3rE"
+                            />
+                        <CardItem
                             icon="fab fa-python"
                             text="AlexaCAPS"
                             label="Alexa"
@@ -17,10 +27,21 @@ function Cards() {
                             Counseling and Psychological Services(CAPS) phone number. A lambda function then uses web scraping to get the specfied university's
                             CAPS number and gives it back to the student through the Alexa device."
                             github="https://github.com/TStansel/AlexaCAPS"
-                            youtube="https://github.com/TStansel/AlexaCAPS"
+                            //youtube="https://github.com/TStansel/AlexaCAPS"
                             />
                     </ul>
                 <ul className="cards-items">
+                    <CardItem
+                            icon="fab fa-python"
+                            text="TherAssist"
+                            label="Python"
+                            description="
+                            Using a pre-trained machine learning modal, the application is able to detect the face, and reognize the emotion on it.
+                            This allows the application to time how long it takes the user to replicate a displayed emotion.
+                            For a demo, click the Youtube link below."
+                            github="https://github.com/arianneghislainerull/defHacks--TeamName--project"
+                            youtube="https://youtu.be/smWooWXbKfM"
+                            />
                     <CardItem
                             icon="fab fa-android"
                             text="Family Map Client"
@@ -36,17 +57,6 @@ function Cards() {
                             description='A server and API for the Family Map Client.
                                 This project was responsible for generating four generations of data for the user and storing it in a SQL server.
                                 This project also created an API that allowed the Android app to access this data.'
-                            />
-                    <CardItem
-                            icon="fab fa-python"
-                            text="TherAssist"
-                            label="Python"
-                            description="
-                            Using a pre-trained machine learning modal, the application is able to detect the face, and reognize the emotion on it.
-                            This allows the application to time how long it takes the user to replicate a displayed emotion.
-                            For a demo, click the Youtube link below."
-                            github="https://github.com/arianneghislainerull/defHacks--TeamName--project"
-                            youtube="https://youtu.be/smWooWXbKfM"
                             />
                     </ul>
                 </div>
