@@ -1,23 +1,22 @@
 import React from 'react'
 import '../App.css'
 import './MainSection.css'
+import TextLoop from "react-text-loop"
 
 function MainSection() {
 
     return (
         <div className='main-container'>
-            <p>
+            <h2>
                 Hello, I'm Thomas Stansel
                 <br/>
-                <br/>
-                Software Engineer
-                <br/>
-                BYU CS student
-                <br/>
-                lover of National Parks
-                <br/>
-                life-long learner.
-            </p>
+                <TextLoop interval={1300}>
+                    <span>Software engineer</span>
+                    <span>Byu cs student</span>
+                    <span>Lover of national parks</span>
+                    <span>Life-long learner</span>
+                </TextLoop>
+            </h2>
         </div>
     )
 }
