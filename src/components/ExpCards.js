@@ -4,6 +4,7 @@ import './ExpCards.css'
 import byu from "../images/byu-icon.png";
 import c1 from "../images/CapitalOne-icon.jpeg";
 import bluehost from "../images/Bluehost-icon.png";
+import novarad from "../images/novarad-icon.png";
 
 function ExpCards() {
 
@@ -12,6 +13,23 @@ function ExpCards() {
             <h1 className="exp-header" id="experience">Where I've Worked</h1>
             <div className="exp-cards-container">
                 <div className="exp-cards-wrapper">
+                <ul className="exp-cards-items">
+                        <ExpCardItem
+                            src={novarad}
+                            text="SWE Intern"
+                            label="Novarad"
+                            link="https://www.novarad.net"
+                            description="Current"
+                            />
+                        <ExpCardItem
+                            src={c1}
+                            text="SWE Intern"
+                            label="Capital One"
+                            link="https://www.capitalone.com"
+                            description='Using Python and AWS, updated one project to have to up to date secruity mandates in place and then
+                            pulled in several new data fields into an API that handles transaction data for credit cards.'
+                            />
+                    </ul>
                     <ul className="exp-cards-items">
                         <ExpCardItem
                             src={bluehost}
