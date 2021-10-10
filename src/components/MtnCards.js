@@ -3,10 +3,10 @@ import MtnCardItem from './MtnCardItem'
 import './MtnCards.css'
 import capital_reef from "../images/Capital_reef.png";
 import yellowstone from "../images/yellowstone.jpg";
-import basin from "../images/Great_basin.JPG";
+import basin from "../images/Great_basin.png";
 import tetons from "../images/grandTeton.jpg";
 import zions from "../images/zions.jpg";
-import guadalupe from "../images/guadalupe.JPG";
+import guadalupe from "../images/guadalupe.png";
 
 function MtnCards() {
 

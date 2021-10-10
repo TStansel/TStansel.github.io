@@ -2,7 +2,7 @@ import React from 'react'
 import ExpCardItem from './ExpCardItem'
 import './ExpCards.css'
 import byu from "../images/byu-icon.png";
-import c1 from "../images/CapitalOne-icon.jpeg";
+import c1 from "../images/CapitalOne-icon.png";
 import bluehost from "../images/Bluehost-icon.png";
 import novarad from "../images/novarad-icon.png";
 
