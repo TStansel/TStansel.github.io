@@ -19,7 +19,7 @@ function MtnCards() {
                     <ul className="mtn-cards-items">
                         <MtnCardItem
                             src={zions}
-                            text="Zions"
+                            text="Zion"
                             label="Angels Landing"
                             description="End of Angels Landing Hike in Febuary 2021"
                             />

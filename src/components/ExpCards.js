@@ -4,7 +4,7 @@ import './ExpCards.css'
 import byu from "../images/byu-icon.png";
 import c1 from "../images/CapitalOne-icon.png";
 import bluehost from "../images/Bluehost-icon.png";
-import novarad from "../images/novarad-icon.png";
+import taxbit from "../images/taxbit-icon.png";
 
 function ExpCards() {
 
@@ -15,10 +15,10 @@ function ExpCards() {
                 <div className="exp-cards-wrapper">
                 <ul className="exp-cards-items">
                         <ExpCardItem
-                            src={novarad}
+                            src={taxbit}
                             text="SWE Intern"
-                            label="Novarad"
-                            link="https://www.novarad.net"
+                            label="Taxbit"
+                            link="https://taxbit.com"
                             description="Current"
                             />
                         <ExpCardItem
