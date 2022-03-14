@@ -15,7 +15,7 @@ function Cards() {
                             label="Java"
                             description='A slack app built to take each new message, look for a similar message in the history of the slack channel using machine learning,
                                 and reccomend the thread of that found message as a potential answer. At peak, had 400 users and ~60,000 events hitting the system per day.'
-                            //github="https://github.com/TStansel/Sandbox"
+                            //github="https://github.com/TStansel/Gravity"
                             youtube="https://www.youtube.com/watch?v=m3pYBpD28oU"
                             />
                         <CardItem
@@ -36,7 +36,6 @@ function Cards() {
                             Counseling and Psychological Services(CAPS) phone number. A lambda function then uses web scraping to get the specfied university's
                             CAPS number and gives it back to the student through the Alexa device."
                             github="https://github.com/TStansel/AlexaCAPS"
-                            //youtube="https://github.com/TStansel/AlexaCAPS"
                             />
                     </ul>
                 <ul className="cards-items">
@@ -53,11 +52,11 @@ function Cards() {
                             />
                     <CardItem
                             icon="fab fa-android"
-                            text="Family Map Client"
+                            text="Tweeter"
                             label="Android"
-                            description="Using the Google Map API and the API created in the Family Map Server,
-                            markers for each of the user's and their family's events are displayed on a map.
-                            Filters were created to allow the user to filter out certain events from being shown on the map."
+                            description="Class project to create a Twitter clone using proper design patterns. Implemented the Template-Method Pattern, the Observer Pattern, the Facade pattern, and others. 
+                            Uses AWS API Gateway, AWS Lambda, and AWS DynamoDB to interact with and keep the data consistent."
+                            //youtube="https://youtu.be/smWooWXbKfM"
                             />
                     </ul>
                 </div>
