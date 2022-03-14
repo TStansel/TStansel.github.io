@@ -10,6 +10,15 @@ function Cards() {
                 <div className="cards-wrapper">
                 <ul className="cards-items">
                         <CardItem
+                            icon="fab fa-slack"
+                            text="Gravity"
+                            label="Java"
+                            description='A slack app built to take each new message, look for a similar message in the history of the slack channel using machine learning,
+                                and reccomend the thread of that found message as a potential answer. At peak, had 400 users and ~60,000 events hitting the system per day.'
+                            //github="https://github.com/TStansel/Sandbox"
+                            youtube="https://www.youtube.com/watch?v=m3pYBpD28oU"
+                            />
+                        <CardItem
                             icon="fab fa-react"
                             text="Athena"
                             label="Athena"
@@ -49,14 +58,6 @@ function Cards() {
                             description="Using the Google Map API and the API created in the Family Map Server,
                             markers for each of the user's and their family's events are displayed on a map.
                             Filters were created to allow the user to filter out certain events from being shown on the map."
-                            />
-                    <CardItem
-                            icon="fab fa-java"
-                            text="Family Map Server"
-                            label="Java"
-                            description='A server and API for the Family Map Client.
-                                This project was responsible for generating four generations of data for the user and storing it in a SQL server.
-                                This project also created an API that allowed the Android app to access this data.'
                             />
                     </ul>
                 </div>
