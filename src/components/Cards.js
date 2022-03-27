@@ -15,7 +15,7 @@ function Cards() {
                             label="Java"
                             description='A slack app built to take each new message, look for a similar message in the history of the slack channel using machine learning,
                                 and reccomend the thread of that found message as a potential answer. At peak, had 400 users and ~60,000 events hitting the system per day.'
-                            //github="https://github.com/TStansel/Gravity"
+                            github="https://github.com/TStansel/Gravity"
                             youtube="https://www.youtube.com/watch?v=m3pYBpD28oU"
                             />
                         <CardItem
