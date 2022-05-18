@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CardItem(props) {
+function ProjectCardItem(props) {
 
     return (
         <>
@@ -42,4 +42,4 @@ function CardItem(props) {
     )
 }
 
-export default CardItem
+export default ProjectCardItem
