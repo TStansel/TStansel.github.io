@@ -5,6 +5,7 @@ import byu from "../images/byu-icon.png";
 import c1 from "../images/CapitalOne-icon.png";
 import bluehost from "../images/Bluehost-icon.png";
 import taxbit from "../images/taxbit-icon.png";
+import aws from "../images/aws.jpg";
 
 function ExpCards() {
 
@@ -15,11 +16,19 @@ function ExpCards() {
                 <div className="exp-cards-wrapper">
                 <ul className="exp-cards-items">
                         <ExpCardItem
+                            src={aws}
+                            text="SDE Intern"
+                            label="AWS"
+                            link="https://aws.amazon.com"
+                            description="Current"
+                            />
+                        <ExpCardItem
                             src={taxbit}
                             text="SWE Intern"
                             label="Taxbit"
                             link="https://taxbit.com"
-                            description="Current"
+                            description="Saved 15 hours per incident by architecting and creating a tool to extract execution data from AWS step functions and make the data queryable using a no code solution.
+                            Increased reliability and maintainability by writing dozens of unit, integration, and property tests."
                             />
                         <ExpCardItem
                             src={c1}

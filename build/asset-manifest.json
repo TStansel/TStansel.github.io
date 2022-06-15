@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.07f9ef54.chunk.css",
-    "main.js": "/static/js/main.8c4ce5a7.chunk.js",
-    "main.js.map": "/static/js/main.8c4ce5a7.chunk.js.map",
+    "main.js": "/static/js/main.5c19935c.chunk.js",
+    "main.js.map": "/static/js/main.5c19935c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cb147ce0.js",
     "runtime-main.js.map": "/static/js/runtime-main.cb147ce0.js.map",
     "static/js/2.19e1fc8b.chunk.js": "/static/js/2.19e1fc8b.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/Capital_reef.c144b5b5.png": "/static/media/Capital_reef.c144b5b5.png",
     "static/media/Great_basin.ed467ecb.png": "/static/media/Great_basin.ed467ecb.png",
     "static/media/Thomas_Stansel_Resume.abbd59cc.pdf": "/static/media/Thomas_Stansel_Resume.abbd59cc.pdf",
+    "static/media/aws.42796768.jpg": "/static/media/aws.42796768.jpg",
     "static/media/byu-icon.05fa0846.png": "/static/media/byu-icon.05fa0846.png",
     "static/media/gateway.5fd01a2e.png": "/static/media/gateway.5fd01a2e.png",
     "static/media/grandTeton.ca9684ba.jpg": "/static/media/grandTeton.ca9684ba.jpg",
@@ -28,6 +29,6 @@
     "static/js/runtime-main.cb147ce0.js",
     "static/js/2.19e1fc8b.chunk.js",
     "static/css/main.07f9ef54.chunk.css",
-    "static/js/main.8c4ce5a7.chunk.js"
+    "static/js/main.5c19935c.chunk.js"
   ]
 }
