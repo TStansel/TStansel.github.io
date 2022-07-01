@@ -6,6 +6,7 @@ import c1 from "../images/CapitalOne-icon.png";
 import bluehost from "../images/Bluehost-icon.png";
 import taxbit from "../images/taxbit-icon.png";
 import aws from "../images/aws.jpg";
+import lyft from "../images/lyft.jpg"
 
 function ExpCards() {
 
@@ -16,11 +17,18 @@ function ExpCards() {
                 <div className="exp-cards-wrapper">
                 <ul className="exp-cards-items">
                         <ExpCardItem
+                            src={lyft}
+                            text="SWE Intern"
+                            label="Lyft"
+                            link="https://www.lyft.com"
+                            description="Expected Fall 2022"
+                            />
+                        <ExpCardItem
                             src={aws}
                             text="SDE Intern"
                             label="AWS"
                             link="https://aws.amazon.com"
-                            description="Current"
+                            description="Working to provide insights into the reason behind groups of calls by using ML to reveal and identify the common theme behind these calls from an on-demand AWS call center."
                             />
                         <ExpCardItem
                             src={taxbit}
@@ -30,43 +38,40 @@ function ExpCards() {
                             description="Saved 15 hours per incident by architecting and creating a tool to extract execution data from AWS step functions and make the data queryable using a no code solution.
                             Increased reliability and maintainability by writing dozens of unit, integration, and property tests."
                             />
+                    </ul>
+                    <ul className="exp-cards-items">
                         <ExpCardItem
                             src={c1}
                             text="SWE Intern"
                             label="Capital One"
                             link="https://www.capitalone.com"
-                            description='Using Python and AWS, updated one project to have to up to date secruity mandates in place and then
-                            pulled in several new data fields into an API that handles transaction data for credit cards.'
+                            description='Saved 3 hours per week by automating the joining of several data tables, with new data points, into an API with 10,000 requests per day.
+                            Updated an application to be security compliant by fetching previously hard-coded credentials from an API.'
                             />
-                    </ul>
-                    <ul className="exp-cards-items">
                         <ExpCardItem
                             src={bluehost}
                             text="SWE Intern"
                             label="Bluehost"
                             link="https://www.bluehost.com"
-                            description="Created several API endpoints in Perl and Python to implement data from 3rd party sources 
-                            and to report on a variety of metrics for customer notifications. Also updated legacy Perl code and wrote
-                            documentation and unit tests for updates."
+                            description="Automated a 10 hour per month process of repetitive work by creating a series of APIs.
+                            Increased code coverage by 10% by writing unit tests for and refactoring legacy code."
                             />
                         <ExpCardItem
                             src={c1}
                             text="SWE Intern"
                             label="Capital One"
                             link="https://www.capitalone.com"
-                            description='Using Python and AWS Lambdas, added on to an existing internal
-                            tool to allow for teams to easily identify any resources that were insecure or out of date.
-                            Provided immediate results by identifying insecure resources teams did not know were insecure.'
+                            description='Identified 12 insecure AWS resources by building a solution to auto-scan resources and to then alert the owners.
+                            Saved time for 4500 employees, within one year, by identifying an undocumented intricate process for an internal CI/CD tool and writing documentation for it.'
                             />
                         <ExpCardItem
                             src={byu}
-                            text="Student SWE"
+                            text="Monitoring Student SWE"
                             label="BYU OIT"
                             link="https://oit.byu.edu"
                             description="
-                                Using React-Native and AWS added onto an existing internal mobile application to allow managers
-                                to efficiently manage their teams and schedules. Created screens saved time and resources for the
-                                team that previously managed all schedules."
+                            Saved 4 hours a week by allowing managers to directly update on-call schedules instead of the Monitoring Team.
+                            Led a team of 2 for creation of screens."
                             />
                     </ul>
                 </div>
