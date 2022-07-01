@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import resume from "../Thomas_Stansel_Resume.pdf";
+import resume from "../files/Thomas_Stansel_Resume.pdf";
 
 function Footer() {
     return (
@@ -22,7 +22,7 @@ function Footer() {
                     <a target="_blank" href="mailto:thomas.s.stansel@gmail.com">
                         <i className="fas fa-envelope-square"></i>
                     </a>
-                    <a target="_blank" href={resume} download>
+                    <a target="_blank" href={resume}>
                         <i className="fas fa-file-alt"></i>
                     </a>
                 </div>
