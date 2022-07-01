@@ -22,7 +22,7 @@ function Footer() {
                     <a target="_blank" href="mailto:thomas.s.stansel@gmail.com">
                         <i className="fas fa-envelope-square"></i>
                     </a>
-                    <a target="_blank" href={resume}>
+                    <a href={resume}>
                         <i className="fas fa-file-alt"></i>
                     </a>
                 </div>
