@@ -19,6 +19,25 @@ function ProjectCards() {
                         youtube="https://www.youtube.com/watch?v=m3pYBpD28oU"
                     />
                     <ProjectCardItem
+                        icon="fab fa-python"
+                        text="TherAssist"
+                        label="Python"
+                        description="
+                            Using a pre-trained machine learning modal, the application is able to detect the face, and reognize the emotion on it.
+                            This allows the application to time how long it takes the user to replicate a displayed emotion."
+                        github="https://github.com/arianneghislainerull/defHacks--TeamName--project"
+                        youtube="https://youtu.be/smWooWXbKfM"
+                    />
+                </ul>
+                <ul className="cards-items">
+                    <ProjectCardItem
+                        icon="fab fa-android"
+                        text="Tweeter"
+                        label="Android"
+                        description="Class project to create a Twitter clone using proper design patterns. Implemented the Template-Method Pattern, the Observer Pattern, the Facade pattern, and others. 
+                            Uses AWS API Gateway, AWS Lambda, and AWS DynamoDB to interact with and keep the data consistent."
+                    />
+                    <ProjectCardItem
                         icon="fab fa-react"
                         text="Athena"
                         label="Athena"
@@ -36,25 +55,6 @@ function ProjectCards() {
                             Counseling and Psychological Services(CAPS) phone number. A lambda function then uses web scraping to get the specfied university's
                             CAPS number and gives it back to the student through the Alexa device."
                         github="https://github.com/TStansel/AlexaCAPS"
-                    />
-                </ul>
-                <ul className="cards-items">
-                    <ProjectCardItem
-                        icon="fab fa-python"
-                        text="TherAssist"
-                        label="Python"
-                        description="
-                            Using a pre-trained machine learning modal, the application is able to detect the face, and reognize the emotion on it.
-                            This allows the application to time how long it takes the user to replicate a displayed emotion."
-                        github="https://github.com/arianneghislainerull/defHacks--TeamName--project"
-                        youtube="https://youtu.be/smWooWXbKfM"
-                    />
-                    <ProjectCardItem
-                        icon="fab fa-android"
-                        text="Tweeter"
-                        label="Android"
-                        description="Class project to create a Twitter clone using proper design patterns. Implemented the Template-Method Pattern, the Observer Pattern, the Facade pattern, and others. 
-                            Uses AWS API Gateway, AWS Lambda, and AWS DynamoDB to interact with and keep the data consistent."
                     />
                 </ul>
                 </div>

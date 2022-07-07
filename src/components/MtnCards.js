@@ -37,14 +37,14 @@ function MtnCards() {
                             label="Angels Landing"
                             description="End of Angels Landing Hike in Febuary 2021"
                             />
+                    </ul>
+                    <ul className="mtn-cards-items">
                         <MtnCardItem
                             src={basin}
                             text="Great Basin"
                             label="Great Basin"
                             description='Summit of Wheeler Peak in September 2020'
                             />
-                    </ul>
-                    <ul className="mtn-cards-items">
                         <MtnCardItem
                             src={tetons}
                             text="Grand Tetons"
