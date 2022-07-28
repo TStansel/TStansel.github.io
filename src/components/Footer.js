@@ -25,6 +25,9 @@ function Footer() {
                     <a target="_blank" href={resume}>
                         <i className="fas fa-file-alt"></i>
                     </a>
+                    <a target="_blank" href="https://applicant.joinleland.com/coach/thomas-stansel">
+                        <i className="fas fa-compass"></i>
+                    </a>
                 </div>
             </section>
         </div>
