@@ -8,7 +8,7 @@ function MainSection() {
     return (
         <div className='main-container'>
             <h2>
-                Hello, I'm Thomas Stansel
+                Hello, I'm Thomas
                 <br/>
                 <TextLoop interval={1300}>
                     <span>Software engineer</span>
