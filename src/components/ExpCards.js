@@ -21,14 +21,15 @@ function ExpCards() {
                             text="SWE Intern"
                             label="Lyft"
                             link="https://www.lyft.com"
-                            description="Expected Fall 2022"
+                            description="Current"
                             />
                         <ExpCardItem
                             src={aws}
                             text="SDE Intern"
                             label="AWS"
                             link="https://aws.amazon.com"
-                            description="Working to provide insights into the reason behind groups of calls by using ML to reveal and identify the common theme behind these calls from an on-demand AWS call center."
+                            description="Provided new analytics for customers by starting development on a new endpoint that identifies common reasons behind AWS Connect calls.
+                            Created 2 new cloud infrastructures to maintain the needed step functions, lambdas, and pipelines."
                             />
                         <ExpCardItem
                             src={taxbit}
