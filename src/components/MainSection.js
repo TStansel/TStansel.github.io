@@ -14,6 +14,7 @@ function MainSection() {
                     <span>Software engineer</span>
                     <span>Byu cs student</span>
                     <span>Lover of national parks</span>
+                    <span>Swe at Lucid</span>
                     <span>Life-long learner</span>
                 </TextLoop>
             </h2>
