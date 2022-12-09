@@ -29,25 +29,25 @@ h1 {
   font-size: 100px;
 }
 
-.fa-python {
+#project-icon.fa-python {
   color: #1b1919;
   margin-bottom: 20px;
   font-size: 100px;
 }
 
-.fa-slack {
+#project-icon.fa-slack {
   color: #1b1919;
   margin-bottom: 20px;
   font-size: 100px;
 }
 
-.fa-react {
+#project-icon.fa-react {
   color: #1b1919;
   margin-bottom: 20px;
   font-size: 100px;
 }
 
-.fa-android {
+#project-icon.fa-android {
   color: #1b1919;
   margin-bottom: 20px;
   font-size: 100px;

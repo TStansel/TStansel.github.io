@@ -17,7 +17,21 @@
   margin: 0 auto;
 }
 
+.exp-cards-container-internships {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
 .exp-cards-wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+}
+
+.exp-cards-wrapper-internships {
   position: relative;
   margin: 50px 0 45px;
 }
@@ -71,6 +85,10 @@
   margin-bottom: 24px;
 }
 
+.exp-cards-items-internships {
+  margin-bottom: 24px;
+}
+
 .exp-cards-item {
   display: flex;
   flex: 1;
@@ -102,7 +120,7 @@
 }
 
 .exp-cards-item-description {
-  color: #8c8c8c;
+  color: #a6a4a4;
   margin-top: 20px;
   font-size: 16px;
   line-height: 24px;
@@ -119,6 +137,12 @@
 @media only screen and (min-width: 1200px) {
   .exp-content-blog-container {
     width: 84%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .exp-cards-items-internships {
+    display: flex;
   }
 }
 

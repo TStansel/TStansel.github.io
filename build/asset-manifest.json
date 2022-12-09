@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.c77fa8ee.chunk.css",
-    "main.js": "/static/js/main.aac6c612.chunk.js",
-    "main.js.map": "/static/js/main.aac6c612.chunk.js.map",
+    "main.css": "/static/css/main.ae64b895.chunk.css",
+    "main.js": "/static/js/main.d18f530c.chunk.js",
+    "main.js.map": "/static/js/main.d18f530c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cb147ce0.js",
     "runtime-main.js.map": "/static/js/runtime-main.cb147ce0.js.map",
-    "static/js/2.19e1fc8b.chunk.js": "/static/js/2.19e1fc8b.chunk.js",
-    "static/js/2.19e1fc8b.chunk.js.map": "/static/js/2.19e1fc8b.chunk.js.map",
+    "static/js/2.4a3d060f.chunk.js": "/static/js/2.4a3d060f.chunk.js",
+    "static/js/2.4a3d060f.chunk.js.map": "/static/js/2.4a3d060f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.c77fa8ee.chunk.css.map": "/static/css/main.c77fa8ee.chunk.css.map",
-    "static/js/2.19e1fc8b.chunk.js.LICENSE.txt": "/static/js/2.19e1fc8b.chunk.js.LICENSE.txt",
+    "static/css/main.ae64b895.chunk.css.map": "/static/css/main.ae64b895.chunk.css.map",
+    "static/js/2.4a3d060f.chunk.js.LICENSE.txt": "/static/js/2.4a3d060f.chunk.js.LICENSE.txt",
     "static/media/9parks12days.f6620adf.gif": "/static/media/9parks12days.f6620adf.gif",
-    "static/media/Bluehost-icon.f18c0794.png": "/static/media/Bluehost-icon.f18c0794.png",
     "static/media/CapitalOne-icon.bc3a5144.png": "/static/media/CapitalOne-icon.bc3a5144.png",
     "static/media/Capital_reef.c144b5b5.png": "/static/media/Capital_reef.c144b5b5.png",
     "static/media/Great_basin.ed467ecb.png": "/static/media/Great_basin.ed467ecb.png",
-    "static/media/Thomas_Stansel_Resume.ed1f0620.pdf": "/static/media/Thomas_Stansel_Resume.ed1f0620.pdf",
+    "static/media/Thomas_Stansel_Resume.594e5a72.pdf": "/static/media/Thomas_Stansel_Resume.594e5a72.pdf",
     "static/media/aws.42796768.jpg": "/static/media/aws.42796768.jpg",
     "static/media/byu-icon.05fa0846.png": "/static/media/byu-icon.05fa0846.png",
     "static/media/gateway.5fd01a2e.png": "/static/media/gateway.5fd01a2e.png",
     "static/media/grandTeton.ca9684ba.jpg": "/static/media/grandTeton.ca9684ba.jpg",
+    "static/media/lucid.235cc292.png": "/static/media/lucid.235cc292.png",
     "static/media/MainSection.css": "/static/media/phone-main-home.36cf55da.jpg",
     "static/media/taxbit-icon.5eaafa65.png": "/static/media/taxbit-icon.5eaafa65.png",
     "static/media/yellowstone.467943a8.jpg": "/static/media/yellowstone.467943a8.jpg",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.cb147ce0.js",
-    "static/js/2.19e1fc8b.chunk.js",
-    "static/css/main.c77fa8ee.chunk.css",
-    "static/js/main.aac6c612.chunk.js"
+    "static/js/2.4a3d060f.chunk.js",
+    "static/css/main.ae64b895.chunk.css",
+    "static/js/main.d18f530c.chunk.js"
   ]
 }
