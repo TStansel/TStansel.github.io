@@ -7,7 +7,7 @@ function ProjectCardItem(props) {
             <li className="cards-item">
                 <div className="cards-item-link">
                     <div className="icon-container">
-                        <i className={props.icon}></i>
+                        <i className={props.icon} id="project-icon"></i>
                     </div>
                     <div className="cards-item-info">
                         <h5 className="cards-item-title">
